@@ -1,0 +1,79 @@
+html, body, h1, h2, a, ul, li{
+    margin:0;       /* Espacios externos (fuera  de la caja) */
+    padding:0;      /* Espacios internos (dentro de la caja  */
+    font-family: Calibri, Arial;
+}
+
+header{
+    background-color: #22384F;
+    padding-top:7px;
+    padding-left: 50px;
+}
+
+
+nav{
+
+    background-color: #F7F7F7;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 50px;
+    border-bottom: 2px solid #797878;
+}
+
+nav ul li{
+    display: inline;
+}
+
+nav ul li a{
+    text-decoration: none;
+    font-size: 17px;
+    color: #797878;
+    font-weight: bold;
+    padding-left: 10px;
+    padding-right: 15px;
+}
+
+nav ul li a:hover{
+    color: #000000;
+    text-decoration: underline;
+    background-color: #fff78c;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+
+main article{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+main article h1{
+    font-size: 38px;
+    text-align: center;
+}
+
+main article h2{
+    font-size: 30px;
+}
+
+main article p{
+    font-size: 24px;
+    text-align: justify;
+}
+
+#parrafoPersonalizado{
+    text-decoration: underline;
+}
+
+
+footer{
+    background-color: #22384F;
+    color: #ffffff;
+    font-size: 25px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    text-align: center;
+}
